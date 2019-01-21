@@ -14,3 +14,16 @@
 //  blue: 'eyeColor',
 //  true: 'isJedi'
 // };
+
+let starWars = {
+     age: 19,
+     name: 'Luke Skywalker',
+     eyeColor: 'blue',
+     isJedi: true
+    };
+
+var newObject = Object.keys(starWars).reduce(function(value,key){value[ starWars[key] ] = key;
+return value; 
+},{});
+  console.log(newObject);
+
