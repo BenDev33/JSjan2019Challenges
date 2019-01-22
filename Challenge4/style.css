@@ -1,0 +1,34 @@
+body {
+    background-color: lightgray;
+}
+
+
+.form {
+    background-color: white;
+    border: solid 1px black;
+    width: 50%;
+    margin: auto;
+}
+
+
+h2 {
+    background-color: teal;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#myform {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 3vh;
+}
+
+#myButton {
+    background-color: teal;
+    margin-bottom: 20px;
+    width: 10vw;
+}
+
